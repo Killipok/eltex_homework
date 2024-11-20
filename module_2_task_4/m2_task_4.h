@@ -14,7 +14,6 @@ struct Person
 У меня не получилось с alignas но в интернете нашел "__attribute__((packed))"
  он убирает автоматически добавленные компилятором байты между полями структуры
  Компилировал командой: gcc -g m2_task_4.c m2_task_4.h -o test && pahole test
- Вывод команды в сообщении с домашкой
 */
 struct  __attribute__((packed)) CompressedPerson 
 {
